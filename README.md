@@ -1,3 +1,19 @@
+.container {
+  background-color: #1f2937; /* Tailwind's gray-900 */
+  border-radius: 0.75rem; /* Tailwind's rounded-xl */
+  border: 1px solid #374151; /* Tailwind's gray-700 */
+  overflow: hidden;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.gradient-bar {
+  height: 0.25rem; /* Tailwind's h-1 */
+  width: 100%;
+  background: linear-gradient(to right, #f97316, #ef4444); /* from-orange-500 to-red-500 */
+}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
